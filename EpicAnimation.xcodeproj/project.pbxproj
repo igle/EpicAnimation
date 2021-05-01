@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84112322263D4F6A00912F93 /* GeneratorFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84112321263D4F6A00912F93 /* GeneratorFlight.swift */; };
+		842235AE263CBD0C00F1CDCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235AD263CBD0C00F1CDCB /* AppDelegate.swift */; };
+		842235B0263CBD0C00F1CDCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235AF263CBD0C00F1CDCB /* SceneDelegate.swift */; };
+		842235B2263CBD0C00F1CDCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235B1263CBD0C00F1CDCB /* ViewController.swift */; };
+		842235B5263CBD0C00F1CDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842235B3263CBD0C00F1CDCB /* Main.storyboard */; };
+		842235B7263CBD0E00F1CDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842235B6263CBD0E00F1CDCB /* Assets.xcassets */; };
+		842235BA263CBD0E00F1CDCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842235B8263CBD0E00F1CDCB /* LaunchScreen.storyboard */; };
+		842235C5263CBD0E00F1CDCB /* EpicAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235C4263CBD0E00F1CDCB /* EpicAnimationTests.swift */; };
+		842235D0263CBD0F00F1CDCB /* EpicAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235CF263CBD0F00F1CDCB /* EpicAnimationUITests.swift */; };
+		842235E5263CBE0300F1CDCB /* VeryGoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235E4263CBE0300F1CDCB /* VeryGoodButton.swift */; };
+		842235ED263CBE2200F1CDCB /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235EC263CBE2200F1CDCB /* Flight.swift */; };
+		842235F3263CBE4E00F1CDCB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842235F2263CBE4E00F1CDCB /* UIColor.swift */; };
+		84F0AFBC263D5FA300BF3F39 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0AFBB263D5FA300BF3F39 /* FirstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842235C1263CBD0E00F1CDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842235A2263CBD0C00F1CDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842235A9263CBD0C00F1CDCB;
+			remoteInfo = EpicAnimation;
+		};
+		842235CC263CBD0F00F1CDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842235A2263CBD0C00F1CDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842235A9263CBD0C00F1CDCB;
+			remoteInfo = EpicAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84112321263D4F6A00912F93 /* GeneratorFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorFlight.swift; sourceTree = "<group>"; };
+		842235AA263CBD0C00F1CDCB /* EpicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842235AD263CBD0C00F1CDCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842235AF263CBD0C00F1CDCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		842235B1263CBD0C00F1CDCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842235B4263CBD0C00F1CDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842235B6263CBD0E00F1CDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842235B9263CBD0E00F1CDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842235BB263CBD0E00F1CDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842235C0263CBD0E00F1CDCB /* EpicAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842235C4263CBD0E00F1CDCB /* EpicAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicAnimationTests.swift; sourceTree = "<group>"; };
+		842235C6263CBD0F00F1CDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842235CB263CBD0F00F1CDCB /* EpicAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842235CF263CBD0F00F1CDCB /* EpicAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicAnimationUITests.swift; sourceTree = "<group>"; };
+		842235D1263CBD0F00F1CDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842235E4263CBE0300F1CDCB /* VeryGoodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryGoodButton.swift; sourceTree = "<group>"; };
+		842235EC263CBE2200F1CDCB /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		842235F2263CBE4E00F1CDCB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		84F0AFBB263D5FA300BF3F39 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842235A7263CBD0C00F1CDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842235BD263CBD0E00F1CDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842235C8263CBD0F00F1CDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84112329263D50AA00912F93 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				84112321263D4F6A00912F93 /* GeneratorFlight.swift */,
+				842235EC263CBE2200F1CDCB /* Flight.swift */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+		842235A1263CBD0C00F1CDCB = {
+			isa = PBXGroup;
+			children = (
+				842235AC263CBD0C00F1CDCB /* EpicAnimation */,
+				842235C3263CBD0E00F1CDCB /* EpicAnimationTests */,
+				842235CE263CBD0F00F1CDCB /* EpicAnimationUITests */,
+				842235AB263CBD0C00F1CDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842235AB263CBD0C00F1CDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842235AA263CBD0C00F1CDCB /* EpicAnimation.app */,
+				842235C0263CBD0E00F1CDCB /* EpicAnimationTests.xctest */,
+				842235CB263CBD0F00F1CDCB /* EpicAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842235AC263CBD0C00F1CDCB /* EpicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				842235F1263CBE3300F1CDCB /* Extension */,
+				842235AD263CBD0C00F1CDCB /* AppDelegate.swift */,
+				842235AF263CBD0C00F1CDCB /* SceneDelegate.swift */,
+				842235E0263CBD7000F1CDCB /* MVC */,
+				842235B3263CBD0C00F1CDCB /* Main.storyboard */,
+				842235B6263CBD0E00F1CDCB /* Assets.xcassets */,
+				842235B8263CBD0E00F1CDCB /* LaunchScreen.storyboard */,
+				842235BB263CBD0E00F1CDCB /* Info.plist */,
+			);
+			path = EpicAnimation;
+			sourceTree = "<group>";
+		};
+		842235C3263CBD0E00F1CDCB /* EpicAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				842235C4263CBD0E00F1CDCB /* EpicAnimationTests.swift */,
+				842235C6263CBD0F00F1CDCB /* Info.plist */,
+			);
+			path = EpicAnimationTests;
+			sourceTree = "<group>";
+		};
+		842235CE263CBD0F00F1CDCB /* EpicAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842235CF263CBD0F00F1CDCB /* EpicAnimationUITests.swift */,
+				842235D1263CBD0F00F1CDCB /* Info.plist */,
+			);
+			path = EpicAnimationUITests;
+			sourceTree = "<group>";
+		};
+		842235E0263CBD7000F1CDCB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				842235E3263CBD9700F1CDCB /* Model */,
+				842235E2263CBD8900F1CDCB /* View */,
+				842235E1263CBD7E00F1CDCB /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		842235E1263CBD7E00F1CDCB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				842235B1263CBD0C00F1CDCB /* ViewController.swift */,
+				84F0AFBB263D5FA300BF3F39 /* FirstViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		842235E2263CBD8900F1CDCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				842235E4263CBE0300F1CDCB /* VeryGoodButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		842235E3263CBD9700F1CDCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84112329263D50AA00912F93 /* Flight */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		842235F1263CBE3300F1CDCB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				842235F2263CBE4E00F1CDCB /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842235A9263CBD0C00F1CDCB /* EpicAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842235D4263CBD0F00F1CDCB /* Build configuration list for PBXNativeTarget "EpicAnimation" */;
+			buildPhases = (
+				842235A6263CBD0C00F1CDCB /* Sources */,
+				842235A7263CBD0C00F1CDCB /* Frameworks */,
+				842235A8263CBD0C00F1CDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpicAnimation;
+			productName = EpicAnimation;
+			productReference = 842235AA263CBD0C00F1CDCB /* EpicAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842235BF263CBD0E00F1CDCB /* EpicAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842235D7263CBD0F00F1CDCB /* Build configuration list for PBXNativeTarget "EpicAnimationTests" */;
+			buildPhases = (
+				842235BC263CBD0E00F1CDCB /* Sources */,
+				842235BD263CBD0E00F1CDCB /* Frameworks */,
+				842235BE263CBD0E00F1CDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842235C2263CBD0E00F1CDCB /* PBXTargetDependency */,
+			);
+			name = EpicAnimationTests;
+			productName = EpicAnimationTests;
+			productReference = 842235C0263CBD0E00F1CDCB /* EpicAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842235CA263CBD0F00F1CDCB /* EpicAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842235DA263CBD0F00F1CDCB /* Build configuration list for PBXNativeTarget "EpicAnimationUITests" */;
+			buildPhases = (
+				842235C7263CBD0F00F1CDCB /* Sources */,
+				842235C8263CBD0F00F1CDCB /* Frameworks */,
+				842235C9263CBD0F00F1CDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842235CD263CBD0F00F1CDCB /* PBXTargetDependency */,
+			);
+			name = EpicAnimationUITests;
+			productName = EpicAnimationUITests;
+			productReference = 842235CB263CBD0F00F1CDCB /* EpicAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842235A2263CBD0C00F1CDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					842235A9263CBD0C00F1CDCB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					842235BF263CBD0E00F1CDCB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 842235A9263CBD0C00F1CDCB;
+					};
+					842235CA263CBD0F00F1CDCB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 842235A9263CBD0C00F1CDCB;
+					};
+				};
+			};
+			buildConfigurationList = 842235A5263CBD0C00F1CDCB /* Build configuration list for PBXProject "EpicAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842235A1263CBD0C00F1CDCB;
+			productRefGroup = 842235AB263CBD0C00F1CDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842235A9263CBD0C00F1CDCB /* EpicAnimation */,
+				842235BF263CBD0E00F1CDCB /* EpicAnimationTests */,
+				842235CA263CBD0F00F1CDCB /* EpicAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842235A8263CBD0C00F1CDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842235BA263CBD0E00F1CDCB /* LaunchScreen.storyboard in Resources */,
+				842235B7263CBD0E00F1CDCB /* Assets.xcassets in Resources */,
+				842235B5263CBD0C00F1CDCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842235BE263CBD0E00F1CDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842235C9263CBD0F00F1CDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842235A6263CBD0C00F1CDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842235B2263CBD0C00F1CDCB /* ViewController.swift in Sources */,
+				842235F3263CBE4E00F1CDCB /* UIColor.swift in Sources */,
+				84112322263D4F6A00912F93 /* GeneratorFlight.swift in Sources */,
+				84F0AFBC263D5FA300BF3F39 /* FirstViewController.swift in Sources */,
+				842235AE263CBD0C00F1CDCB /* AppDelegate.swift in Sources */,
+				842235E5263CBE0300F1CDCB /* VeryGoodButton.swift in Sources */,
+				842235ED263CBE2200F1CDCB /* Flight.swift in Sources */,
+				842235B0263CBD0C00F1CDCB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842235BC263CBD0E00F1CDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842235C5263CBD0E00F1CDCB /* EpicAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842235C7263CBD0F00F1CDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842235D0263CBD0F00F1CDCB /* EpicAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842235C2263CBD0E00F1CDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842235A9263CBD0C00F1CDCB /* EpicAnimation */;
+			targetProxy = 842235C1263CBD0E00F1CDCB /* PBXContainerItemProxy */;
+		};
+		842235CD263CBD0F00F1CDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842235A9263CBD0C00F1CDCB /* EpicAnimation */;
+			targetProxy = 842235CC263CBD0F00F1CDCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842235B3263CBD0C00F1CDCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842235B4263CBD0C00F1CDCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842235B8263CBD0E00F1CDCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842235B9263CBD0E00F1CDCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842235D2263CBD0F00F1CDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842235D3263CBD0F00F1CDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842235D5263CBD0F00F1CDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PYZ98YA8;
+				INFOPLIST_FILE = EpicAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.Jules.EpicAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842235D6263CBD0F00F1CDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PYZ98YA8;
+				INFOPLIST_FILE = EpicAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.Jules.EpicAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		842235D8263CBD0F00F1CDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PYZ98YA8;
+				INFOPLIST_FILE = EpicAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.Jules.EpicAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicAnimation.app/EpicAnimation";
+			};
+			name = Debug;
+		};
+		842235D9263CBD0F00F1CDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PYZ98YA8;
+				INFOPLIST_FILE = EpicAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.Jules.EpicAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicAnimation.app/EpicAnimation";
+			};
+			name = Release;
+		};
+		842235DB263CBD0F00F1CDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PYZ98YA8;
+				INFOPLIST_FILE = EpicAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.Jules.EpicAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpicAnimation;
+			};
+			name = Debug;
+		};
+		842235DC263CBD0F00F1CDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PYZ98YA8;
+				INFOPLIST_FILE = EpicAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.Jules.EpicAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpicAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842235A5263CBD0C00F1CDCB /* Build configuration list for PBXProject "EpicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842235D2263CBD0F00F1CDCB /* Debug */,
+				842235D3263CBD0F00F1CDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842235D4263CBD0F00F1CDCB /* Build configuration list for PBXNativeTarget "EpicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842235D5263CBD0F00F1CDCB /* Debug */,
+				842235D6263CBD0F00F1CDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842235D7263CBD0F00F1CDCB /* Build configuration list for PBXNativeTarget "EpicAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842235D8263CBD0F00F1CDCB /* Debug */,
+				842235D9263CBD0F00F1CDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842235DA263CBD0F00F1CDCB /* Build configuration list for PBXNativeTarget "EpicAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842235DB263CBD0F00F1CDCB /* Debug */,
+				842235DC263CBD0F00F1CDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842235A2263CBD0C00F1CDCB /* Project object */;
+}

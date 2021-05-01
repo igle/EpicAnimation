@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EpicAnimation.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>842235A9263CBD0C00F1CDCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842235BF263CBD0E00F1CDCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842235CA263CBD0F00F1CDCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
